@@ -17,4 +17,4 @@ function hw5(string, lengthString, symbol, start = false) {
 }
 
 let result = hw5("smth", 8, "0", true);
-console.log(result);
+document.body.innerHTML = result;
